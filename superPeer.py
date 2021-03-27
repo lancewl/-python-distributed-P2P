@@ -4,14 +4,17 @@ import socket
 import threading
 import json
 import click
+import time
 
 SIZE = 1024
 FORMAT = "utf-8"
 SERVER_DATA_PATH = "./"
 TTL = 2
 
-peer_table = {}
+# Global Variable
 neighbor_peers = []
+peer_table = {}
+queryhit_table = {}
 cond = threading.Condition()
 
 def startUDPServer(hostname, port):
@@ -23,7 +26,12 @@ def startUDPServer(hostname, port):
 
     while True:
         data, addr = udp_server.recvfrom(SIZE)
-        print("received message: %s" % data)
+        json_data = json.loads(data.decode(FORMAT))
+        print(f"[BROADRECV] {json_data['type']} - ID: {json_data['msgid']}, TTL: {json_data['TTL']}")
+        if json_data['TTL'] > 0:
+            json_data['TTL'] -= 1
+            broadcastMsg(json_data)
+
 
 def startTCPServer(hostname, port):
     # Setup TCP server for connecting weak peer
@@ -37,7 +45,15 @@ def startTCPServer(hostname, port):
         thread = threading.Thread(target=clientHandler, args=(conn, addr))
         thread.daemon = True
         thread.start()
-        print(f"[ACTIVE CONNECTIONS] {threading.activeCount() - 1}")
+
+def broadcastMsg(msg):
+    global neighbor_peers
+    broadcaster = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+    encode = json.dumps(msg).encode(FORMAT)
+    
+    for n in neighbor_peers:
+        addr, port = n.split(":")
+        broadcaster.sendto(encode, (addr, int(port)))
 
 def clientHandler(conn, addr):
     global peer_table
@@ -80,6 +96,19 @@ def clientHandler(conn, addr):
             # query for a file
             query_file = json_data["file"]
             print(f"[QUERY] {full_addr} query {query_file}")
+
+            # broadcast query message to neighbor super peers
+            msg = {
+                "type": 'QUERY',
+                "msgid": str(addr[1]) + "-" + str(time.time()), # use client port + timestamp as message id
+                "file": query_file,
+                "TTL": TTL
+            }
+            broadcastMsg(msg)
+
+            # waiting for query hit
+            
+
             res = []
             cond.acquire()
             for peer, filelist in peer_table.items():
