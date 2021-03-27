@@ -19,6 +19,9 @@ cond = threading.Condition()
 
 def startUDPServer(hostname, port):
     # Setup UDP server for broadcasting message
+    global peer_table
+    global cond
+    global queryhit_table
     udp_server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     udp_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)
     udp_server.bind((hostname, port))
@@ -29,8 +32,26 @@ def startUDPServer(hostname, port):
         json_data = json.loads(data.decode(FORMAT))
         print(f"[BROADRECV] {json_data['type']} - ID: {json_data['msgid']}, TTL: {json_data['TTL']}")
         if json_data['TTL'] > 0:
-            json_data['TTL'] -= 1
+            # broadcast msg if TTL > 0
             broadcastMsg(json_data)
+        
+        if json_data['type'] == 'QUERY' and json_data['msgid'] not in queryhit_table:
+            # only check for query hit on other super peers not the one initial the query message
+            # the super peer that initial the query message will store the msgid in `queryhit_table`
+            res = []
+            cond.acquire()
+            for peer, filelist in peer_table.items():
+                if json_data['file'] in filelist:
+                    res.append(peer)
+            cond.release()
+
+            if len(res) > 0:
+                broadcastMsg({"type": "QUERYHIT", "msgid": json_data['msgid'], "filelist": res, "TTL": TTL})
+        
+        elif json_data['type'] == 'QUERYHIT':
+            if json_data['msgid'] in queryhit_table:
+                # store the result in QUERYHIT message
+                queryhit_table[json_data['msgid']].update(json_data['filelist'])
 
 
 def startTCPServer(hostname, port):
@@ -48,6 +69,7 @@ def startTCPServer(hostname, port):
 
 def broadcastMsg(msg):
     global neighbor_peers
+    msg['TTL'] -= 1
     broadcaster = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     encode = json.dumps(msg).encode(FORMAT)
     
@@ -58,6 +80,7 @@ def broadcastMsg(msg):
 def clientHandler(conn, addr):
     global peer_table
     global cond
+    global queryhit_table
     full_addr = addr[0] + ":" + str(addr[1])
 
     print(f"[NEW CONNECTION] {addr} connected.")
@@ -98,18 +121,25 @@ def clientHandler(conn, addr):
             print(f"[QUERY] {full_addr} query {query_file}")
 
             # broadcast query message to neighbor super peers
+            global_id = str(addr[1]) + "-" + str(time.time()) # use client port + timestamp as message id
+            queryhit_table[global_id] = set([]) # create a new entry in query hit table
             msg = {
                 "type": 'QUERY',
-                "msgid": str(addr[1]) + "-" + str(time.time()), # use client port + timestamp as message id
+                "msgid": global_id,
                 "file": query_file,
                 "TTL": TTL
             }
             broadcastMsg(msg)
 
             # waiting for query hit
-            
+            snapshot = queryhit_table[global_id]
+            while True:
+                time.sleep(1)
+                if queryhit_table[global_id] == snapshot:
+                    break # break if there's no change in last second
+                snapshot = queryhit_table[global_id]
 
-            res = []
+            res = list(queryhit_table[global_id])
             cond.acquire()
             for peer, filelist in peer_table.items():
                 if peer != full_addr and query_file in filelist:
