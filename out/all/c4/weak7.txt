@@ -1,0 +1,4 @@
+[STARTING] Peer Server is starting
+[LISTENING] Peer Server is listening on 127.0.0.1:50015
+Welcome to Super Peer!
+> 
