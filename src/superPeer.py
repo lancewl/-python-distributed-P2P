@@ -9,7 +9,7 @@ import time
 SIZE = 1024
 FORMAT = "utf-8"
 SERVER_DATA_PATH = "./"
-TTL = 2
+TTL = 1
 
 # Global Variable
 neighbor_peers = []
@@ -134,7 +134,7 @@ def clientHandler(conn, addr):
             # waiting for query hit
             snapshot = queryhit_table[global_id]
             while True:
-                time.sleep(1)
+                time.sleep(0.01)
                 if queryhit_table[global_id] == snapshot:
                     break # break if there's no change in last second
                 snapshot = queryhit_table[global_id]
@@ -163,10 +163,15 @@ def clientHandler(conn, addr):
               multiple=True,
               default=[],
               help='Specify neighbor super nodes')
-def startSuperPeer(tport, uport, neighbors):
+@click.option('--ttl',
+              default=1,
+              help='Broadcast TTL')
+def startSuperPeer(tport, uport, neighbors, ttl):
     print("[STARTING] Super Peer is starting")
     global neighbor_peers
+    global TTL
     neighbor_peers = neighbors
+    TTL = ttl
     hostname = socket.gethostbyname(socket.gethostname())
 
     # start udp server on another thread
