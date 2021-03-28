@@ -10,7 +10,7 @@ set -m
 C=$1
 N=10 # How many peers
 
-OUT="../out/all/"
+OUT="../out/all/c$1/"
 mkdir -p ${OUT}
 rm ${OUT}*
 ./createPeer.sh ${N} 5 128
@@ -49,9 +49,16 @@ do
         fi
     done
 
-    ${SUPER} -t ${TPORT} -u ${UPORT} ${NEIGHBORS} > ${OUT}super${i}.txt 2>&1 &
+    ${SUPER} -t ${TPORT} -u ${UPORT} ${NEIGHBORS} --ttl 1 > ${OUT}super${i}.txt 2>&1 &
     spids[${i}]=$!
-    echo -e $ACT | ${WEAK} ${WPORT} --dir peer_folder${i} --server 127.0.0.1:${TPORT} > ${OUT}weak${i}.txt 2>&1 &
+
+    if [[ $i -gt $C ]]
+    then
+        ${WEAK} ${WPORT} --dir peer_folder${i} --server 127.0.0.1:${TPORT} > ${OUT}weak${i}.txt 2>&1 &
+    else
+        # Spawning clients with query commands
+        echo -e $ACT | ${WEAK} ${WPORT} --dir peer_folder${i} --server 127.0.0.1:${TPORT} > ${OUT}weak${i}.txt 2>&1 &
+    fi
     wpids[${i}]=$!
 done
 
