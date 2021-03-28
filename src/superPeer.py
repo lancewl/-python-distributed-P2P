@@ -15,6 +15,7 @@ TTL = 1
 neighbor_peers = []
 peer_table = {}
 queryhit_table = {}
+visited = set()
 cond = threading.Condition()
 
 def startUDPServer(hostname, port):
@@ -22,6 +23,7 @@ def startUDPServer(hostname, port):
     global peer_table
     global cond
     global queryhit_table
+    global visited
     udp_server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
     udp_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)
     udp_server.bind((hostname, port))
@@ -31,8 +33,11 @@ def startUDPServer(hostname, port):
         data, addr = udp_server.recvfrom(SIZE)
         json_data = json.loads(data.decode(FORMAT))
         print(f"[BROADRECV] {json_data['type']} - ID: {json_data['msgid']}, TTL: {json_data['TTL']}")
-        if json_data['TTL'] > 0:
+        identity = (json_data['type'], json_data['msgid'])
+        if json_data['TTL'] > 0 and identity not in visited:
             # broadcast msg if TTL > 0
+            # prevent duplicate message
+            visited.add(identity)
             broadcastMsg(json_data)
         
         if json_data['type'] == 'QUERY' and json_data['msgid'] not in queryhit_table:
