@@ -1,0 +1,872 @@
+[STARTING] Peer Server is starting
+[LISTENING] Peer Server is listening on 127.0.0.1:50007
+Welcome to Super Peer!
+> Start waiting
+> 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50010
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50008
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50008
+3) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > 1) 127.0.0.1:50002
+2) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> No peers found for the file.
+> Input action is invalid!
+> 1) 127.0.0.1:50002
+2) 127.0.0.1:50010
+3) 127.0.0.1:50008
+4) 127.0.0.1:50004
+0) exit
+Choose a peer to download:
+> > Start waiting
+> Disconnected from the server.
